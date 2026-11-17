@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de Horas Médicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Centro Médico - Reserva de Horas</h1>
+        <p>Estado del servicio: <span class="status">Operativo</span></p>
+        <form>
+            <label for="rut">RUT del Paciente:</label>
+            <input type="text" id="rut" name="rut" required>
+            
+            <label for="especialidad">Especialidad:</label>
+            <select id="especialidad" name="especialidad">
+                <option value="medicina_general">Medicina General</option>
+                <option value="pediatria">Pediatría</option>
+            </select>
+            
+            <button type="button">Reservar Hora</button>
+        </form>
+    </div>
+</body>
+</html>
